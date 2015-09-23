@@ -1,0 +1,85 @@
+/* v1.0 | 20080212 */
+/**********Reset starts**********/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: inherit;
+	border-spacing: 0;
+	padding: 10px 0 10px 0;
+}
+/**********Reset ends**********/
+#header #header_middle h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#content_wrapper .content .content_middle .price_table .price_list .table_top h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#top_header .clear table tr th div .tdcontent {
+	color: #000;
+}
+#top_header .clear table tr th div .tdcontent {
+	font-style: italic;
+}
+#top_header .clear table tr th div .tdcontent {
+	font-size: 16px;
+}
+#top_header .clear table tr th div .tdcontent {
+	font-size: 16px;
+}
+#top_header .clear table tr th div .tdcontent {
+	color: #333;
+}
+#top_header .clear table tr th div .tdcontent1 {
+	color: #000;
+}
+#top_header .clear table tr th div .tdcontent1 {
+	font-size: 16px;
+}
+#top_header .clear table tr th div .tdcontent1 {
+	font-style: italic;
+}
+#content_wrapper .content .content_top h2 {
+	font-size: 24px;
+}
+#content_wrapper .content .content_top h2 {
+	font-size: 16px;
+}

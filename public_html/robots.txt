@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /news.html
+Disallow: /interesnoe foto.html
+Disallow: /poleznaya informaciya.html
+
+User-agent: Yandex
+Disallow: /news.html
+Disallow: /interesnoe foto.html
+Disallow: /poleznaya informaciya.html
+Host: v-dele.com
