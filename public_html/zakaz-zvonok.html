@@ -1,0 +1,42 @@
+<?php require_once('../init.php') ?>
+<?php site_header([
+  'title' => 'Полезное - "Мы вбизнесе"',
+  'description' => 'Полезные статьи по оказанию юридических услуг',
+]); ?>
+
+<div id="main_s_panel">
+  <div class="main_s_contorller">
+    <div class="main_s_details">
+      <div class="main_s_sec_contorller">
+        <div class="main_s_sec_details">
+          <h3>Заказать звонок</h3>
+          <h5><img src="images/ico-phone.png" width="20" height="16"/>Заполните форму и мы свяжемся с вами в удобное для Вас время</h5>
+
+          <form method="post" action="mail.php">
+            <table width="400 " border="0">
+              <tr>
+                <th width="97" align="left" scope="col">Имя:</th>
+                <th width="293" align="left" scope="col"><input type="text" name="name" size="25"/></th>
+              </tr>
+              <tr>
+                <td>Телефон:</td>
+                <td><input name="email" type="text" size="25" /></td>
+              </tr>
+              <tr>
+                <td>Время звонка:</td>
+                <td><input name="mess" type="text" value="" size="25" /></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td><input type="submit" class="send" value="Отправить сообщение"/></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php require_once('../inc/footer.php') ?>
+
