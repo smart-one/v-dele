@@ -36,11 +36,19 @@
           </div>
           <div id="main_top_righ_login_panel">
             <div class="main_top_search_controller">
-              <table width="105%" border="0">
+              <table width="185%" border="0">
                 <tr>
                   <th width="164" scope="col"><a href="/"><img src="images/logo.png" width="164" height="43" alt="Мы в бизнесе" /></a></th>
                   <th width="5" scope="col">&nbsp;</th>
                   <th scope="col"><strong>+7(812) 987-06-36</strong></th>
+                  <th width="7" scope="col">&nbsp;</th>
+                  <th>
+                    <div class="contacts-wrapper">
+                      <div class="">г. Санкт-Петербург, Невский пр., д.10</div>
+                      <div class="">Часы работы: с 9:30 до 19:00</div>
+                      <div class="">v-dele@info.ru</div>
+                    </div>
+                  </th>
                 </tr>
               </table>
               <div class="clear"></div>
