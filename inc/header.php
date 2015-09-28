@@ -46,7 +46,7 @@
                     <div class="contacts-wrapper">
                       <div class="">г. Санкт-Петербург, Невский пр., д.10</div>
                       <div class="">Часы работы: с 9:30 до 19:00</div>
-                      <div class="">v-dele@info.ru</div>
+                      <div class="">info@v-dele.com</div>
                     </div>
                   </th>
                 </tr>

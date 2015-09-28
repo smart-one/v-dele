@@ -978,3 +978,37 @@ ul.gallery li a span img, ul.gallery li.last_image a span img {
 	color: #fff;
 }
 
+.table-price{
+	border-collapse: collapse;
+}
+
+
+.table-price th, .table-price td{
+	padding: 5px 80px;
+	border: 1px solid #666;
+}
+
+.table-price th{
+	font-size: 14px;
+	color: #134366;
+	text-transform: uppercase;
+	padding: 10px 50px;
+}
+
+.table-price td[colspan="2"]{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: #134366;
+}
+.table-price td img{
+	vertical-align: baseline;
+}
+
+.table-price td + td{
+	text-align: center;
+}
+
+
