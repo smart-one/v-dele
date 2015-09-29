@@ -26,11 +26,14 @@
                     <a href="contact.html"> контакты</a>
                 </p>
                 <h4>&copy; Юридическая фирма "МЫ вбизнесе"</h4>
+                
                 <!-- Yandex.Metrika informer -->
-                <a href="http://metrika.yandex.ru/stat/?id=16944778&amp;from=informer" target="_blank" rel="nofollow">
-                    <img src="//bs.yandex.ru/informer/16944778/1_1_205173FF_003153FF_1_uniques" alt="Яндекс.Метрика" align="right"
-                    style="width:80px; height:15px; border:0;" title="Яндекс.Метрика: данные за сегодня (уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:16944778,type:0,lang:'ru'});return false}catch(e){}"/>
-                </a>
+                <div class="ya-metrika-informer">
+                    <a href="http://metrika.yandex.ru/stat/?id=16944778&amp;from=informer" target="_blank" rel="nofollow">
+                        <img src="//bs.yandex.ru/informer/16944778/1_1_205173FF_003153FF_1_uniques" alt="Яндекс.Метрика"
+                        style="width:80px; height:15px; border:0;" title="Яндекс.Метрика: данные за сегодня (уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:16944778,type:0,lang:'ru'});return false}catch(e){}"/>
+                    </a>    
+                </div>
                 <!-- /Yandex.Metrika informer -->
 
                 <!-- Yandex.Metrika counter -->

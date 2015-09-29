@@ -314,9 +314,15 @@ a:hover{
 
 .main_left_details ul { margin:0px; padding:10px 0px 0px 0px;}
 
-.main_left_details ul li{ margin:0px; padding:0px 0px 1px 0px; list-style:none; line-height:30px; background:url(../images/dash.gif) repeat-x bottom;  }
+.main_left_details ul li:not(.actions-container){ margin:0px; padding:0px 0px 1px 0px; list-style:none; line-height:30px; background:url(../images/dash.gif) repeat-x bottom;  }
 
-.main_left_details ul li a{
+.main_left_details ul li.actions-container{
+	margin: 0;
+	padding: 0 0 1px 0;
+	list-style-type: none;
+}
+
+.main_left_details ul li:not(.actions-container) a{
 
 	margin:0px;
 
@@ -330,11 +336,11 @@ a:hover{
 
 }
 
-.main_left_details ul li a span { display:block; margin:0px; padding:0px 0px 0px 10px; background:url(../images/arrow.gif) no-repeat 0 10px;}
+.main_left_details ul li:not(.actions-container) a span { display:block; margin:0px; padding:0px 0px 0px 10px; background:url(../images/arrow.gif) no-repeat 0 10px;}
 
-.main_left_details ul li a:hover {margin:0px; padding:0px; display: block; text-decoration:none; color:#757b7f;background-color:#eef2f5; }
+.main_left_details ul li:not(.actions-container) a:hover {margin:0px; padding:0px; display: block; text-decoration:none; color:#757b7f;background-color:#eef2f5; }
 
-.main_left_details ul li a.list {
+.main_left_details ul li:not(.actions-container) a.list {
 
 	margin:0px;
 
@@ -1011,4 +1017,115 @@ ul.gallery li a span img, ul.gallery li.last_image a span img {
 	text-align: center;
 }
 
+.main-info-table{
 
+}
+
+.main-info-table td:first-child{
+	width: 150px;
+}
+
+.main-info-table td:nth-child(2){
+	width: 10px;
+}
+
+.main-news-feed-table{
+	width: 420px;
+	border: none;
+}
+
+.main-news-feed-table td:first-child{
+	text-align: center;
+	vertical-align: middle;
+	width: 47px;
+}
+
+.news-feed-table{
+	width: 720px;
+	border: none;
+}
+
+.news-feed-table td:first-child{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header-nav-table{
+	width: 185%;
+	border: none;
+}
+
+.header-nav-table .logo{
+	width: 164px;
+}
+
+.header-nav-table .logo-seperator{
+	width: 5px;
+}
+
+.header-nav-table .phone-separator{
+	width: 7px;
+}
+
+.sidebar-callback-table{
+	width: 192px;
+	border: none;
+	border-collapse: collapse;
+}
+
+.sidebar-callback-table tr{
+	line-height: 1.2;
+}
+
+.sidebar-callback-table th{
+	text-align: left;
+}
+
+.main-useful-table{
+	width: 280px;
+	border: none;
+	border-collapse: collapse;
+}
+
+.ya-metrika-informer{
+	text-align: right;
+}
+
+.vat{
+	vertical-align: top;
+}
+
+.contacts-container{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0px 0px 5px 0px;
+	margin: 0px 0px 10px 0px;
+	color: #134366;
+}
+
+.pull-right{
+	float: right;
+}
+
+.useful-video-table{
+	width: 700px;
+}
+
+.useful-video-table th{
+	text-align: left;
+	width: 340px;
+}
+
+.useful-video-table .separator{
+	width: 28px;
+}
+
+.useful-table{
+	width: 720px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.firm-registry .marked{
+	color: #134366;
+}

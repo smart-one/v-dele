@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -36,12 +36,12 @@
           </div>
           <div id="main_top_righ_login_panel">
             <div class="main_top_search_controller">
-              <table width="185%" border="0">
+              <table class="header-nav-table">
                 <tr>
-                  <th width="164" scope="col"><a href="/"><img src="images/logo.png" width="164" height="43" alt="Мы в бизнесе" /></a></th>
-                  <th width="5" scope="col">&nbsp;</th>
-                  <th scope="col"><strong>+7(812) 987-06-36</strong></th>
-                  <th width="7" scope="col">&nbsp;</th>
+                  <th class="logo"><a href="/"><img src="images/logo.png" width="164" height="43" alt="Мы в бизнесе" /></a></th>
+                  <th class="logo-seperator">&nbsp;</th>
+                  <th><strong>+7(812) 987-06-36</strong></th>
+                  <th class="phone-separator">&nbsp;</th>
                   <th>
                     <div class="contacts-wrapper">
                       <div class="">г. Санкт-Петербург, Невский пр., д.10</div>
